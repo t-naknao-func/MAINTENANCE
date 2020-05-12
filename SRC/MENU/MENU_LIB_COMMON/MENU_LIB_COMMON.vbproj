@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CAE2F3A0-4B4D-4F3B-A603-547EDAAC50D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MENU_LIB_COMMON</RootNamespace>
+    <AssemblyName>MENU_LIB_COMMON</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\BIN\MENU\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\FRM_SYSTEM_TOTAL\FRM_SYSTEM_TOTAL_FONT_SETTING.designer.vb">
+      <Link>FRM_SYSTEM_TOTAL\FRM_SYSTEM_TOTAL_FONT_SETTING.designer.vb</Link>
+      <DependentUpon>FRM_SYSTEM_TOTAL_FONT_SETTING.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\FRM_SYSTEM_TOTAL\FRM_SYSTEM_TOTAL_FONT_SETTING.vb">
+      <Link>FRM_SYSTEM_TOTAL\FRM_SYSTEM_TOTAL_FONT_SETTING.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_CASH_TOOL.vb">
+      <Link>MOD\MOD_CASH_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_CODE_TOOL.vb">
+      <Link>MOD\MOD_CODE_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_COLOR_TOOL.vb">
+      <Link>MOD\MOD_COLOR_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_COMBO_TOOL.vb">
+      <Link>MOD\MOD_COMBO_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_CONFIG_TOOL.vb">
+      <Link>MOD\MOD_CONFIG_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_CONST.vb">
+      <Link>MOD\MOD_CONST.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_CTRL_TOOLS.vb">
+      <Link>MOD\MOD_CTRL_TOOLS.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_CTRL_TOOLS_TAG.vb">
+      <Link>MOD\MOD_CTRL_TOOLS_TAG.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_DATA_GRID_VIEW.vb">
+      <Link>MOD\MOD_DATA_GRID_VIEW.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_DATA_TABLE_TOOL.vb">
+      <Link>MOD\MOD_DATA_TABLE_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_DATE_TOOL.vb">
+      <Link>MOD\MOD_DATE_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_DB_TOOL.vb">
+      <Link>MOD\MOD_DB_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_FILE_TOOL.vb">
+      <Link>MOD\MOD_FILE_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_LABEL_TOOL.vb">
+      <Link>MOD\MOD_LABEL_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD\MOD_SQL_TOOL.vb">
+      <Link>MOD\MOD_SQL_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_APPL_CONTROL.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_APPL_CONTROL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_APP_CONFIG.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_APP_CONFIG.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_COMMANDLINE_TOOL.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_COMMANDLINE_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_CONFIG_TOOL.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_CONFIG_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_CONST.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_CONST.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_ENUM.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_ENUM.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_INITIALIZATION_FINALIZATION.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_INITIALIZATION_FINALIZATION.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_LOG_TOOL.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_LOG_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_MST_SELECT.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_MST_SELECT.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_SHOW_DIALOG.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_SHOW_DIALOG.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_SQL_TOOL.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_SQL_TOOL.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_TABLE_STRUCTURE.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_TABLE_STRUCTURE.vb</Link>
+    </Compile>
+    <Compile Include="..\..\COMMON\COMMON_LIB_BASE\MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_VARIABLE.vb">
+      <Link>MOD_SYSTEM_TOTAL\MOD_SYSTEM_TOTAL_VARIABLE.vb</Link>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\COMMON\COMMON_LIB_BASE\FRM_SYSTEM_TOTAL\FRM_SYSTEM_TOTAL_FONT_SETTING.resx">
+      <Link>FRM_SYSTEM_TOTAL\FRM_SYSTEM_TOTAL_FONT_SETTING.resx</Link>
+      <DependentUpon>FRM_SYSTEM_TOTAL_FONT_SETTING.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\COMMON\COMMON_LIB_BASE\_SystemSettings.config">
+      <Link>_SystemSettings.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FRM_SYSTEM_INDVIDUAL\" />
+    <Folder Include="MOD_SYSTEM_INDIVIDUAL\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
