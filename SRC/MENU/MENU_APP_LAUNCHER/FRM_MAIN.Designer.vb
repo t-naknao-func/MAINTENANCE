@@ -87,7 +87,7 @@ Partial Class FRM_MAIN
         '
         Me.lblDATE_ACTIVE_GUIDE.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lblDATE_ACTIVE_GUIDE.AutoEllipsis = True
-        Me.lblDATE_ACTIVE_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(118, Byte), Integer))
+        Me.lblDATE_ACTIVE_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.lblDATE_ACTIVE_GUIDE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblDATE_ACTIVE_GUIDE.ForeColor = System.Drawing.Color.White
         Me.lblDATE_ACTIVE_GUIDE.Location = New System.Drawing.Point(1, 3)
@@ -125,7 +125,7 @@ Partial Class FRM_MAIN
         '
         Me.lblNAME_USER_GUIDE.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lblNAME_USER_GUIDE.AutoEllipsis = True
-        Me.lblNAME_USER_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(118, Byte), Integer))
+        Me.lblNAME_USER_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.lblNAME_USER_GUIDE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblNAME_USER_GUIDE.ForeColor = System.Drawing.Color.White
         Me.lblNAME_USER_GUIDE.Location = New System.Drawing.Point(1, 3)
@@ -223,7 +223,7 @@ Partial Class FRM_MAIN
         '
         Me.lblLAUNCHER_BASE.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lblLAUNCHER_BASE.AutoEllipsis = True
-        Me.lblLAUNCHER_BASE.BackColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(118, Byte), Integer))
+        Me.lblLAUNCHER_BASE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.lblLAUNCHER_BASE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblLAUNCHER_BASE.ForeColor = System.Drawing.Color.White
         Me.lblLAUNCHER_BASE.Location = New System.Drawing.Point(8, 0)

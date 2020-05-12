@@ -62,7 +62,7 @@ Partial Class FRM_MAIN
         Me.lblTITLE.Name = "lblTITLE"
         Me.lblTITLE.Size = New System.Drawing.Size(736, 16)
         Me.lblTITLE.TabIndex = 1
-        Me.lblTITLE.Text = "神徒管理システム"
+        Me.lblTITLE.Text = "基幹業務システム"
         Me.lblTITLE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'grpBODY
@@ -107,7 +107,7 @@ Partial Class FRM_MAIN
         '
         Me.LBL_PASSWORD_GUIDE.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.LBL_PASSWORD_GUIDE.AutoEllipsis = True
-        Me.LBL_PASSWORD_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(118, Byte), Integer))
+        Me.LBL_PASSWORD_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.LBL_PASSWORD_GUIDE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.LBL_PASSWORD_GUIDE.ForeColor = System.Drawing.Color.White
         Me.LBL_PASSWORD_GUIDE.Location = New System.Drawing.Point(280, 2)
@@ -145,7 +145,7 @@ Partial Class FRM_MAIN
         '
         Me.LBL_ID_USER_GUIDE.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.LBL_ID_USER_GUIDE.AutoEllipsis = True
-        Me.LBL_ID_USER_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(118, Byte), Integer))
+        Me.LBL_ID_USER_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.LBL_ID_USER_GUIDE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.LBL_ID_USER_GUIDE.ForeColor = System.Drawing.Color.White
         Me.LBL_ID_USER_GUIDE.Location = New System.Drawing.Point(280, 2)
