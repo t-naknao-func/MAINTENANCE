@@ -48,9 +48,9 @@
             Exit Sub
         End If
         'SNG_FONT_SIZE = 0
-        'SNG_FONT_SIZE = 9
+        SNG_FONT_SIZE = 9
         'SNG_FONT_SIZE = 10
-        SNG_FONT_SIZE = 11
+        'SNG_FONT_SIZE = 11
     End Sub
 
 #Region "内部処理"

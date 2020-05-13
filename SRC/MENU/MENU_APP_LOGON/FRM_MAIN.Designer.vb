@@ -109,7 +109,7 @@ Partial Class FRM_MAIN
         Me.LBL_PASSWORD_GUIDE.AutoEllipsis = True
         Me.LBL_PASSWORD_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.LBL_PASSWORD_GUIDE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.LBL_PASSWORD_GUIDE.ForeColor = System.Drawing.Color.White
+        Me.LBL_PASSWORD_GUIDE.ForeColor = System.Drawing.Color.Black
         Me.LBL_PASSWORD_GUIDE.Location = New System.Drawing.Point(280, 2)
         Me.LBL_PASSWORD_GUIDE.Name = "LBL_PASSWORD_GUIDE"
         Me.LBL_PASSWORD_GUIDE.Size = New System.Drawing.Size(79, 25)
@@ -147,7 +147,7 @@ Partial Class FRM_MAIN
         Me.LBL_ID_USER_GUIDE.AutoEllipsis = True
         Me.LBL_ID_USER_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.LBL_ID_USER_GUIDE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.LBL_ID_USER_GUIDE.ForeColor = System.Drawing.Color.White
+        Me.LBL_ID_USER_GUIDE.ForeColor = System.Drawing.Color.Black
         Me.LBL_ID_USER_GUIDE.Location = New System.Drawing.Point(280, 2)
         Me.LBL_ID_USER_GUIDE.Name = "LBL_ID_USER_GUIDE"
         Me.LBL_ID_USER_GUIDE.Size = New System.Drawing.Size(79, 25)

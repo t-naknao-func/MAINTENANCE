@@ -89,7 +89,7 @@ Partial Class FRM_MAIN
         Me.lblDATE_ACTIVE_GUIDE.AutoEllipsis = True
         Me.lblDATE_ACTIVE_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.lblDATE_ACTIVE_GUIDE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblDATE_ACTIVE_GUIDE.ForeColor = System.Drawing.Color.White
+        Me.lblDATE_ACTIVE_GUIDE.ForeColor = System.Drawing.Color.Black
         Me.lblDATE_ACTIVE_GUIDE.Location = New System.Drawing.Point(1, 3)
         Me.lblDATE_ACTIVE_GUIDE.Name = "lblDATE_ACTIVE_GUIDE"
         Me.lblDATE_ACTIVE_GUIDE.Size = New System.Drawing.Size(79, 25)
@@ -127,7 +127,7 @@ Partial Class FRM_MAIN
         Me.lblNAME_USER_GUIDE.AutoEllipsis = True
         Me.lblNAME_USER_GUIDE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.lblNAME_USER_GUIDE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblNAME_USER_GUIDE.ForeColor = System.Drawing.Color.White
+        Me.lblNAME_USER_GUIDE.ForeColor = System.Drawing.Color.Black
         Me.lblNAME_USER_GUIDE.Location = New System.Drawing.Point(1, 3)
         Me.lblNAME_USER_GUIDE.Name = "lblNAME_USER_GUIDE"
         Me.lblNAME_USER_GUIDE.Size = New System.Drawing.Size(79, 25)
@@ -225,7 +225,7 @@ Partial Class FRM_MAIN
         Me.lblLAUNCHER_BASE.AutoEllipsis = True
         Me.lblLAUNCHER_BASE.BackColor = System.Drawing.Color.FromArgb(CType(CType(90, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.lblLAUNCHER_BASE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblLAUNCHER_BASE.ForeColor = System.Drawing.Color.White
+        Me.lblLAUNCHER_BASE.ForeColor = System.Drawing.Color.Black
         Me.lblLAUNCHER_BASE.Location = New System.Drawing.Point(8, 0)
         Me.lblLAUNCHER_BASE.Name = "lblLAUNCHER_BASE"
         Me.lblLAUNCHER_BASE.Size = New System.Drawing.Size(175, 30)
